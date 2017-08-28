@@ -6,3 +6,6 @@ p2Name = gets.chomp
 
 require_relative 'question'
 require_relative 'player'
+
+player1 = Player.new(p1Name)
+player2 = Player.new(p2Name)
